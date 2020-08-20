@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2020/07/24 10:04:58.099,=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/07/24 10:08:33.299,C:\ProjetoDelphi\uPrincipal.pas=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/07/24 10:08:33.299,C:\ProjetoDelphi\uPrincipal.dfm=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2020/07/24 10:08:47.128,C:\ProjetoDelphi\Vendas.dproj=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
-    <Transaction>2020/07/24 10:28:56.078,=C:\ProjetoDelphi\Unit1.pas</Transaction>
-    <Transaction>2020/07/24 10:35:34.399,C:\ProjetoDelphi\datamodule\uDTMConexao.dfm=C:\ProjetoDelphi\Unit1.dfm</Transaction>
-    <Transaction>2020/07/24 10:35:34.399,C:\ProjetoDelphi\datamodule\uDTMConexao.pas=C:\ProjetoDelphi\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2020/07/24 10:04:58.000.099,=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 10:08:33.000.299,C:\ProjetoDelphi\uPrincipal.dfm=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/07/24 10:08:33.000.299,C:\ProjetoDelphi\uPrincipal.pas=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 10:08:47.000.128,C:\ProjetoDelphi\Vendas.dproj=C:\Users\Eliakim\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2020/07/24 10:28:56.000.078,=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 10:35:34.000.399,C:\ProjetoDelphi\datamodule\uDTMConexao.pas=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 10:35:34.000.399,C:\ProjetoDelphi\datamodule\uDTMConexao.dfm=C:\ProjetoDelphi\Unit1.dfm</Transaction>
+    <Transaction>2020/07/24 14:15:47.000.014,=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 14:16:30.000.401,C:\ProjetoDelphi\Unit1.dfm=C:\ProjetoDelphi\heranca\uTelaHeranca.dfm</Transaction>
+    <Transaction>2020/07/24 14:16:30.000.401,C:\ProjetoDelphi\Unit1.pas=C:\ProjetoDelphi\heranca\uTelaHeranca.pas</Transaction>
+    <Transaction>2020/07/24 15:36:59.000.303,=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/07/24 15:37:55.000.764,C:\ProjetoDelphi\Unit1.pas=C:\ProjetoDelphi\cadastro\uCadCategorias.pas</Transaction>
+    <Transaction>2020/07/24 15:37:55.000.764,C:\ProjetoDelphi\Unit1.dfm=C:\ProjetoDelphi\cadastro\uCadCategorias.dfm</Transaction>
+    <Transaction>2020/07/24 15:38:44.000.311,C:\ProjetoDelphi\cadastro\uCadCategorias.dfm=C:\ProjetoDelphi\cadastro\uCadCategoria.dfm</Transaction>
+    <Transaction>2020/07/24 15:38:44.000.311,C:\ProjetoDelphi\cadastro\uCadCategorias.pas=C:\ProjetoDelphi\cadastro\uCadCategoria.pas</Transaction>
+    <Transaction>2020/07/24 16:06:48.000.240,=C:\ProjetoDelphi\terceiros\Enter.pas</Transaction>
+    <Transaction>2020/07/26 13:51:51.000.265,=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/07/26 13:52:05.000.864,C:\ProjetoDelphi\heranca\uEnum.pas=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/07/29 22:44:09.000.476,=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/07/29 22:44:54.000.514,C:\ProjetoDelphi\Unit1.pas=C:\ProjetoDelphi\classes\cCadCategoria.pas</Transaction>
+    <Transaction>2020/08/05 10:27:58.000.680,=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/08/05 10:28:28.000.059,C:\ProjetoDelphi\Unit1.dfm=C:\ProjetoDelphi\cadastro\uCadCliente.dfm</Transaction>
+    <Transaction>2020/08/05 10:28:28.000.059,C:\ProjetoDelphi\Unit1.pas=C:\ProjetoDelphi\cadastro\uCadCliente.pas</Transaction>
+    <Transaction>2020/08/05 12:17:52.000.586,=C:\ProjetoDelphi\Unit1.pas</Transaction>
+    <Transaction>2020/08/05 12:18:04.000.279,C:\ProjetoDelphi\Unit1.pas=C:\ProjetoDelphi\classes\cCadCliente.pas</Transaction>
   </Transactions>
 </BorlandProject>

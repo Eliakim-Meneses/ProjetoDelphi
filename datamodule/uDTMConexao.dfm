@@ -6,12 +6,14 @@ object dtmPrincipal: TdtmPrincipal
     ControlsCodePage = cCP_UTF16
     AutoEncodeStrings = True
     Catalog = ''
-    HostName = ''
-    Port = 0
-    Database = ''
-    User = ''
-    Password = ''
-    Protocol = ''
+    Connected = True
+    HostName = '.\SERVERCURSO'
+    Port = 1433
+    Database = 'vendas'
+    User = 'sa'
+    Password = '123456'
+    Protocol = 'mssql'
+    LibraryLocation = 'C:\ProjetoDelphi\ntwdblib.dll'
     Left = 32
     Top = 24
   end

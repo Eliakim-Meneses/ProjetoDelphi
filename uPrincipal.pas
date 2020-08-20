@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, uDTMConexao;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, uDTMConexao, Vcl.StdCtrls, Enter;
 
 type
   TfrmPrincipal = class(TForm)
@@ -26,7 +26,11 @@ type
     VendaPorData1: TMenuItem;
     procedure mnuFecharClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure Categoria1Click(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure Cliente1Click(Sender: TObject);
   private
+    TeclaEnter: TMREnter;
     { Private declarations }
   public
     { Public declarations }
@@ -38,6 +42,28 @@ var
 implementation
 
 {$R *.dfm}
+
+uses uCadCategoria, uCadCliente;
+
+procedure TfrmPrincipal.Categoria1Click(Sender: TObject);
+begin
+  frmCadCategoria := TfrmCadCategoria.Create(Self);
+  frmCadCategoria.ShowModal;
+  frmCadCategoria.Release; // Limpa o formulário da memória ao ser fechado / finaliza a instância do objeto
+end;
+
+procedure TfrmPrincipal.Cliente1Click(Sender: TObject);
+begin
+  frmCadCliente := TfrmCadCliente.Create(Self);
+  frmCadCliente.ShowModal;
+  frmCadCliente.Release;
+end;
+
+procedure TfrmPrincipal.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  FreeAndNil(TeclaEnter);   // Destrói a variável da memória
+  FreeAndNil(dtmPrincipal);
+end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin
@@ -64,10 +90,12 @@ begin
     User := 'sa';
     Password := '123456';
     Database := 'vendas';
-    SQLHourGlass := true;
+    SQLHourGlass := false;
     Connected := true;
   end;
-
+  TeclaEnter := TMREnter.Create(Self);
+  TeclaEnter.FocusEnabled := true;
+  TeclaEnter.FocusColor := clInfoBk;
 end;
 
 procedure TfrmPrincipal.mnuFecharClick(Sender: TObject);
